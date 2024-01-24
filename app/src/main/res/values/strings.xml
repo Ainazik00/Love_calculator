@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">homeWork_2_5m</string>
+    <string name="enter_boy_name">ENTER BOY NAME</string>
+    <string name="love_calculator">Love Calculator</string>
+    <string name="enter_girl_name">ENTER GIRL NAME</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="your_love_match">YOUR LOVE MATCH</string>
+    <string name="_100">100%</string>
+    <string name="heason">Heason</string>
+    <string name="gvanhi">Gvanhi</string>
+    <string name="without_a_doubt">Without a doubt</string>
+</resources>
