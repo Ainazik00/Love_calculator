@@ -34,8 +34,8 @@ class MainActivity : AppCompatActivity() {
                             response.body()?.let {
                                 val intent = Intent(this@MainActivity, SecondActivity::class.java)
                                 intent.putExtra("result", it)
-                                intent.putExtra("firstName", it)
-                                intent.putExtra("secondName", it)
+                                intent.putExtra("fname", it)
+                                intent.putExtra("sname", it)
                                 startActivity(intent)
                             }
                     }

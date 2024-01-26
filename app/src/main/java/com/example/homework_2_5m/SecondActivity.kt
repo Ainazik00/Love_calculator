@@ -17,8 +17,8 @@ class SecondActivity : AppCompatActivity() {
         val result = intent.getSerializableExtra("result") as? LoveModel
 
         if (result != null) {
-            binding.tvName.text = result.firstName
-            binding.tvNameGl.text = result.secondName
+            binding.tvName.text = result.fname
+            binding.tvNameGl.text = result.sname
             binding.tvResult.text = result.result
             binding.tvPercentage.text = result.percentage
         } else {
