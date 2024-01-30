@@ -14,10 +14,10 @@
         android:theme="@style/Theme.HomeWork_2_5m"
         tools:targetApi="31">
         <activity
-            android:name=".SecondActivity"
+            android:name="com.view.SecondActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

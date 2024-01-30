@@ -1,9 +1,10 @@
-package com.example.homework_2_5m
+package com.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.example.homework_2_5m.databinding.ActivitySecondBinding
+import com.remote.LoveModel
 
 class SecondActivity : AppCompatActivity() {
 

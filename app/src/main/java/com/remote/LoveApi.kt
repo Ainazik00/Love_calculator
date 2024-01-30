@@ -1,4 +1,4 @@
-package com.example.homework_2_5m
+package com.remote
 
 import retrofit2.http.GET
 import retrofit2.http.Header
