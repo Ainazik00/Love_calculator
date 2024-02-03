@@ -3,9 +3,6 @@ package com.onboarding
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.viewpager2.widget.ViewPager2
-import com.example.homework_2_5m.R
-import com.example.homework_2_5m.databinding.ActivityMainBinding
 import com.example.homework_2_5m.databinding.ActivityOnBoardingBinding
 import com.onboarding.adapter.OnBoardingAdapter
 import com.onboarding.adapter.OnBoardingPref
@@ -39,9 +36,4 @@ class OnBoardingActivity : AppCompatActivity() {
         binding.viewPager.adapter = adapter
     }
 
-
-    private fun startMainActivity() {
-        startActivity(Intent(this@OnBoardingActivity, MainActivity::class.java))
-        finish()
-    }
 }
